@@ -1,0 +1,69 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+
+# Log files
+*.log
+
+# npm debug file
+npm-debug.log*
+
+# Environment files (exclude actual secrets from being pushed)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage reports from Jest or other testing tools
+coverage/
+
+# IDE and editor directories
+.vscode/
+.idea/
+
+# OS generated files (macOS, Windows)
+.DS_Store        # macOS file
+Thumbs.db        # Windows file
+
+# JetBrains IDE files (WebStorm, IntelliJ, etc.)
+*.iml
+
+# Yarn lock file, if you're using yarn instead of npm
+yarn-error.log
+yarn-debug.log*
+
+# VSCode settings folder
+.vscode/
+
+# Temporary files and folders created by the operating system
+*~                 # Temporary files created by text editors (e.g. vim)
+*.swp              # Swap files for vim
+*.bak              # Backup files
+*.tmp              # Temporary files
+
+# Webpack and other bundler cache
+.cache/
+
+# VS Code workspace storage
+.vscode-test/
+
+# Dependency directories (created by some bundlers or package managers)
+jspm_packages/
+
+# React Native packager
+packager/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# macOS app bundles
+*.app/
+
+# Storybook build directory
+storybook-static/
