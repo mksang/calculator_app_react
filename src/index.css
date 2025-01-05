@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-color: rgba(24,29,28,255);
+}
+.header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+img {
+    width: 60px;
+}
+
+.calculator {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(29,129,90,255);
+  }
+  
+  /* Form container styling with Grid */
+  .form-container {
+    margin: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  
+  /* Form group styling */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 10px;
+  }
+  
+  input {
+    max-width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: rgba(29,129,90,255);
+}
+input:focus {
+    border-color: #4d90fe; /* Change the border color when the input is focused */
+    outline: none; /* Removes the default outline in some browsers */
+  }
+  
+  #result {
+    max-width: 50rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    table-layout: fixed;
+    border-spacing: 1rem;
+    text-align: right;
+  }
+  
+  #result thead {
+    font-size: 0.7rem;
+    color: #83e6c0;
+  }
+  
+  #result tbody {
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.85rem;
+    color: #c2e9e0;
+  }
+  .center {
+    text-align: center;
+    color: white;
+  }
